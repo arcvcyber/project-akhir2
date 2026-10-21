@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Tamu - Website Vian</title>
+</head>
+ 
+<body>
+ 
+    <main>
+        <h1 align="center">Buku Tamu</h1>
+ 
+        <form action="mailto:arcvianbayukrisnatyosija@gmail.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Isi Buku Tamu</legend>
+ 
+                <p>
+                    <label for="nama">Nama</label><br>
+                    <input type="text" id="nama" name="nama" size="30" maxlength="50"
+                           placeholder="Masukkan nama kamu" required autocomplete="name">
+                </p>
+ 
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" size="30" maxlength="80"
+                           placeholder="contoh@email.com" required autocomplete="email">
+                </p>
+ 
+                <fieldset>
+                    <legend>Jenis Kelamin</legend>
+                    <input type="radio" id="pria" name="kelamin" value="Pria" required>
+                    <label for="pria">Pria</label>
+ 
+                    <input type="radio" id="wanita" name="kelamin" value="Wanita">
+                    <label for="wanita">Wanita</label>
+                </fieldset>
+ 
+                <p>
+                    <label for="pesan">Pesan</label><br>
+                    <textarea id="pesan" name="pesan" rows="5" cols="40" maxlength="500"
+                              placeholder="Tulis pesan atau saran untuk website ini (maks. 500 karakter)"
+                              required></textarea>
+                </p>
+ 
+                <p>
+                    <input type="submit" value="Kirim">
+                    <input type="reset" value="Reset">
+                </p>
+            </fieldset>
+        </form>
+ 
+        <hr>
+ 
+        <p align="center">
+            <strong>Selalu dibutuhkan waktu untuk saling mengenal dan berkembang.</strong><br>
+            Maka dari itu, berikan saya saran agar website ini bisa lebih berkembang.
+            Apabila ada yang kurang atau salah, mohon dimaafkan. Have a good day 😊
+        </p>
+    </main>
+ 
+</body>
+ 
+</html>
